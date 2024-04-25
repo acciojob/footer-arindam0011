@@ -1,1 +1,80 @@
 /* your code here */
+/* your code here */
+footer{
+	background-color:black;
+	color:white;
+	font-family: "Roboto", sans-serif;
+}
+.top{
+	
+	display: flex;
+	justify-content:space-between;
+	padding-inline:20px;
+	padding-top:20px;
+}
+.logo-details{
+	font-size:25px;
+	dispaly:inline-block;
+	
+}
+.media-icons{
+	display:flex;
+	gap:5px;
+}
+.smicon{
+	width:35px;
+	height:35px;
+	border-radius:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:15px;
+}
+.facebook{
+	background-color:#4267b2;
+}
+.twiter{
+	background-color:#1da1f2;
+}
+.insta{
+	background-color:#e1306c;
+}
+.linkdin{
+	background-color:#1da1f2;
+}
+.youtube{
+	background-color:red;
+}
+.bottom-details{
+	display:flex;
+	justify-content:space-between;
+	padding-inline:20px;
+	background-color:rgb(44,48,58);
+	color:#777777;
+}
+.link-boxes{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	padding:30px 0px;
+}
+ul{
+	text-decoration:none;
+	font-size:13px;
+	list-style-type: none;
+	  margin-top: 0;
+	  padding: 0;
+	color:gray;
+}
+li{
+	padding-bottom:5px;
+}
+h4>span{
+	text-decoration:underline;
+	
+}
+h4{
+	margin-bottom:10px;
+	text-underline-offset:5px;
+	font-weight:300;
+}
